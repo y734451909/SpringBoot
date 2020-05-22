@@ -1,5 +1,4 @@
 package com.hx.demo_sentinel;
-
 import com.alibaba.csp.sentinel.init.InitExecutor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +6,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class DemoSentinelApplication {
-
     public static void main(String[] args) {
       //  SpringApplication.run(DemoSentinelApplication.class, args);
         ConfigurableApplicationContext context=SpringApplication.run(DemoSentinelApplication.class, args);

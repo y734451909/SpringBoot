@@ -15,10 +15,13 @@ import java.util.Date;
 public class HelloController {
 
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "name",value = "用户名称",required = true,dataType = "String",paramType = "path",example = "blues")
+            @ApiImplicitParam(name = "name",value = "用户名称",required = true,dataType = "String",paramType = "path",example = "Tom")
     })
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "接口返回成功状态"),
+            @ApiResponse(code = 401, message = "401错误，待定义了解"),
+            @ApiResponse(code = 403, message = "403错误，待定义了解"),
+            @ApiResponse(code = 404, message = "404错误，待定义了解"),
             @ApiResponse(code = 500, message = "接口返回未知错误，请联系开发人员调试")
     })
     @ApiOperation(value = "Hello 测试接口", notes = "访问此接口，返回hello语句，测试接口")
@@ -30,5 +33,4 @@ public class HelloController {
         Results<UserVO> results = new Results<UserVO>(200, date,"SUCCESS", userVO);
         return results;
     }
-
 }

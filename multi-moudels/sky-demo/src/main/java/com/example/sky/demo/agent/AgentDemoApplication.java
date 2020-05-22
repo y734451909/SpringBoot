@@ -1,12 +1,11 @@
-package com.hx.swagger2;
+package com.example.sky.demo.agent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Swagger2Application {
+public class AgentDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Swagger2Application.class, args);
+        SpringApplication.run(AgentDemoApplication.class, args);
     }
-
 }

@@ -15,7 +15,7 @@ import java.util.Date;
 public class Results<T> {
     @ApiModelProperty(required = true,notes = "结果码",example = "200")
     private int state;
-    @ApiModelProperty(required = true,notes = "时间戳",example = "1567425139000")
+    @ApiModelProperty(required = true,notes = "时间戳",example = "2020-05-22T05:19:37.161+0000")
     private Date time;
     @ApiModelProperty(required = true,notes = "返回信息",example = "SUCCESS")
     private String message;

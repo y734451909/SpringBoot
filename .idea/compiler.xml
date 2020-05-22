@@ -9,17 +9,20 @@
         <module name="demo_sentinel" />
         <module name="multi-moudels" />
         <module name="swagger2" />
+        <module name="sky-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo_sentinel" target="1.8" />
       <module name="multi-moudels" target="1.5" />
+      <module name="sky-demo" target="1.8" />
       <module name="swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo_sentinel" options="-parameters" />
+      <module name="sky-demo" options="-parameters" />
       <module name="swagger2" options="-parameters" />
     </option>
   </component>

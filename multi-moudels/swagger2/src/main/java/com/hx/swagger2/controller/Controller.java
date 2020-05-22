@@ -14,16 +14,16 @@ public class Controller {
     @ApiOperation("查询")
     @GetMapping("/all")
     public String queryUserList(){
-        return "It is OK!";
+        return "查询 is OK!";
     }
     @ApiOperation("修改")
     @GetMapping("/edit")
     public String edit(){
-        return "It is OK!";
+        return "修改 is OK!";
     }
     @ApiOperation("删除")
     @GetMapping("/delete")
     public String delete(){
-        return "It is OK!";
+        return "删除 is OK!";
     }
 }
