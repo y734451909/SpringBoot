@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-moudels/demo_sentinel/demo_sentinel.iml" filepath="$PROJECT_DIR$/multi-moudels/demo_sentinel/demo_sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-moudels/multi-moudels.iml" filepath="$PROJECT_DIR$/multi-moudels/multi-moudels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-moudels/swagger2/swagger2.iml" filepath="$PROJECT_DIR$/multi-moudels/swagger2/swagger2.iml" />
+    </modules>
+  </component>
+</project>
