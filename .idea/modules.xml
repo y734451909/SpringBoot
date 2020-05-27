@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-moudels/demo_sentinel/demo_sentinel.iml" filepath="$PROJECT_DIR$/multi-moudels/demo_sentinel/demo_sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-moudels/multi-moudels.iml" filepath="$PROJECT_DIR$/multi-moudels/multi-moudels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-moudels/mybatisplus-8082/mybatisplus-8082.iml" filepath="$PROJECT_DIR$/multi-moudels/mybatisplus-8082/mybatisplus-8082.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-moudels/sky-demo/sky-demo.iml" filepath="$PROJECT_DIR$/multi-moudels/sky-demo/sky-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-moudels/swagger2/swagger2.iml" filepath="$PROJECT_DIR$/multi-moudels/swagger2/swagger2.iml" />
     </modules>

@@ -2,21 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo_sentinel" />
-        <module name="multi-moudels" />
-        <module name="swagger2" />
         <module name="sky-demo" />
+        <module name="swagger2" />
+        <module name="demo_sentinel" />
+        <module name="mybatisplus-8082" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo_sentinel" target="1.8" />
-      <module name="multi-moudels" target="1.5" />
+      <module name="multi-moudels" target="1.8" />
+      <module name="mybatisplus-8082" target="1.8" />
       <module name="sky-demo" target="1.8" />
       <module name="swagger2" target="1.8" />
+      <module name="swagger2_01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +27,7 @@
       <module name="demo_sentinel" options="-parameters" />
       <module name="sky-demo" options="-parameters" />
       <module name="swagger2" options="-parameters" />
+      <module name="swagger2_01" options="-parameters" />
     </option>
   </component>
 </project>
