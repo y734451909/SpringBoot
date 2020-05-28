@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 @TableName(value="dept01") //指定数据库中的表的名称
-public class Dept{
-    @TableId(value = "deptno",type = IdType.AUTO)
+public class Dept extends BaseEntity{
+//    @TableId(value = "deptno",type = IdType.AUTO)
     private Long deptno;
     private String dname;
     private String dbSource;

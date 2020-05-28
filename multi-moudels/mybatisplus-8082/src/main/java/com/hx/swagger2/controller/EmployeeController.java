@@ -44,7 +44,9 @@ public class EmployeeController {
     @PostMapping
     public Results<Employee> add(@RequestBody
                       @Valid Employee employee){
+        employee.setOperator(null);
         employeeService.save(employee);
+        System.out.println(employee);
         Results<Employee> results = new Results<Employee>(200, new Date(),"save SUCCESS",employee);
         return results;
     }
@@ -74,6 +76,7 @@ public class EmployeeController {
     public Results<Employee>  getEmployee(@PathVariable Long id1) {
         Employee employee=employeeService.getById(id1);
         Results<Employee> results = new Results<Employee>(200, new Date(),"delete SUCCESS",employee);
+        System.out.println(employee.getGrade().getDescp());
         return results;
     }
 
